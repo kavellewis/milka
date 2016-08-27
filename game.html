@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #opera {
+
+      background-image: url(http://www.fancycrime.com/wp-content/uploads/2015/12/This-week-MADs-Harbin-Opera-House-completed-and-Tokyo-Olympic-stadium-designs-emerged-1.jpg)
+    }
+    img {
+      width: 20%
+    }
+  </style>
+</head>
+
+<body>
+  Witness Statements:</br>
+  The murderer wore a dress</br>
+  The murderer had blond hair</br>
+  Who is the murderer</br>
+
+<p id="opera">
+  <img src="betty.png">
+  <img src="josephine.png">
+  <img src="guy.png">
+  <img src="jerry.png">
+</p>
+  <script>
+
+  var number = Math.random()
+
+  if(number < 0.25){
+    var murderer = "josephine"
+
+  }
+  if(number > 0.25&& number < 0.50){
+    var murderer = "betty"
+
+  }
+  if(number > 0.50){
+    var murderer = "guy"
+
+  }
+  if(number > 0.75){
+    var murderer = "jerry"
+
+  }
+  </script>
+</body>
+
+</html>
